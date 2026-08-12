@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:multi_provider/favourite_app.dart';
 import 'package:multi_provider/homescreen.dart';
 
 void main() {
@@ -16,7 +17,7 @@ class MyApp extends StatelessWidget {
 
         colorScheme: .fromSeed(seedColor: Colors.deepPurple),
       ),
-      home:homescreen()
+      home:favouiteapp()
     );
   }
 }
