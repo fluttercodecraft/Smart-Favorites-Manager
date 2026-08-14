@@ -23,12 +23,13 @@ class _FavouriteAppState extends State<FavouriteApp> {
                 MaterialPageRoute(builder: (context) => const LikeScreen()),
               );
             },
-            icon: const Icon(Icons.favorite),
+            icon: const Icon(Icons.favorite,color: Colors.white,),
           ),
         ],
+        backgroundColor: Colors.indigo,
         title: const Text(
           "Favourite App",
-          style: TextStyle(fontWeight: FontWeight.bold),
+          style: TextStyle(color:Colors.white,fontWeight: FontWeight.bold),
         ),
         centerTitle: true,
       ),
